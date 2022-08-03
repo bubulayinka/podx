@@ -1,0 +1,56 @@
+.explore{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    h3{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 3rem;
+        span{
+            color: #ff733a;
+        }
+    }
+    h2{
+        top: 0px;
+        right: 130px;
+        position: absolute;
+        font-size: 2rem;
+        color: #f5f86c;
+        transform: rotate(-20deg);
+        span{
+            margin-left: 20px;
+        }
+    }
+    &-boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+       
+
+        .explore-box1{
+            img{
+                width: 220px;
+                height: 220px;
+            }
+    
+            p{
+                font-size: 1.5rem;
+                color: white;
+            }
+            h5{
+                font-weight: 100;
+                color: #882810;
+                font-size: 1.2rem;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                
+                i{
+                    font-size: 2rem;
+                    margin-right: 10px;
+                    color: #ff733a;
+                }
+            }
+        }
+    }
+}

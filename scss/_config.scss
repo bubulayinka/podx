@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$backgroupColor: #000824;
+$textColor: #010123;
+$logoCoor: #fd4c34;
+$grey: #191e3e;
+
+
+
+@mixin medium{
+    @media screen and (max-width:850px){
+        @content;
+    }
+    
+}
+
+@mixin small{
+    @media screen and (max-width:500px){
+        @content;
+    }
+    
+}

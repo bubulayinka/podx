@@ -1,0 +1,56 @@
+header{
+    background: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    padding-left: 2rem;
+    padding-right: 2rem;
+     
+    .logo{
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i{
+            color: $logoCoor;
+            font-size: 2.5rem;
+            margin-right: 2px;
+        }
+        h2{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $textColor;
+        }
+    }
+    nav{
+        
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                display: inline-block;
+                margin: 0 10px;
+                a{
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-size: 1rem;
+                    color: $textColor;
+                    font-weight: bold;
+                    padding: 10px 20px;
+                    &:hover{
+                        color: white;
+                        background: $textColor;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .menu-btn{
+      display: none;
+    }
+}
