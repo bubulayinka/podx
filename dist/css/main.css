@@ -2179,7 +2179,7 @@ footer .copy-r .copy-li .lis-img img {
     color: #fd4c34;
   }
   footer .copy-r .copy-li {
-    display: flex;
+    display: none;
     text-align: center;
   }
   footer .copy-r .copy-li p {
