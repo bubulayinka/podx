@@ -623,6 +623,7 @@
 
 @include small{
     header{
+        
         background: white;
         height: 60px;
         width: 100%;
@@ -632,6 +633,7 @@
         position: sticky;
         padding-left: 2rem;
         padding-right: 2rem;
+        
          
         .logo{
             
@@ -737,6 +739,10 @@
         }
     }  
     .hero{
+        
+       .blue-tri{
+        display: none;
+       }
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 50px;
@@ -778,12 +784,13 @@
                     display: flex;
                     justify-content: center;
                     &-text{
+                        
                         position: absolute;
                         background: white;
                         width: 100%;
                         padding: 10px;
                         bottom: -10px;
-                        left: 20px;
+                        left: 0px;
                         border-radius: 10px;
                         display: flex;
                         color: $textColor;
@@ -862,7 +869,7 @@
                         position: absolute;
                         height: 50px;
                         width: 50px;
-                        left: 120px;
+                        left: 0px;
                         background: yellow;
                         border-radius: 50px;
                         display: flex;
@@ -966,6 +973,7 @@
         }
     }
     .charge{
+        
         padding: 30px 0;
         display: block;
         padding: 0 1rem;
@@ -1387,11 +1395,11 @@
         background: #00ccff;
         position: absolute;
         top: 00px;
-        left: 100px;
+        left: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
-        display: none;
+        visibility: hidden;
         img{
             width: 50px;
             transform: translateY(1px);
@@ -1399,6 +1407,7 @@
         }
     }
     .pot2{
+        visibility: hidden;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -1408,7 +1417,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        display: none;
+        
         img{
             width: 30px;
             transform: translateY(1px);
@@ -1417,14 +1426,13 @@
     }
     .pot3{
         visibility: hidden;
-        display: none;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         background: #ffd45d;
         position: absolute;
-        left: 200px;
-        top: 840px;
+        left: 0px;
+        top: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1435,15 +1443,15 @@
         }
     }
     .pot4{ 
-        display: none;
+        visibility: hidden;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         background: #00a3fd;
         visibility: hidden;
         position: absolute;
-        left: 800px;
-        top: 900px;
+        left: 0px;
+        top: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1454,14 +1462,14 @@
         }
     }
     .pot5{
-       visibility: hidden;
+        visibility: hidden;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         background: #d4ff9b;
         position: absolute;
         right: 0;
-        top: 900px;
+        top: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1491,14 +1499,13 @@
     }
     .pot7{
         visibility: hidden;
-        display: none;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         background: #00b3b2;
         position: absolute;
-        top: 665px;
-        right: 200px;
+        top: 0px;
+        right: 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1509,8 +1516,9 @@
         }
     }
     footer{
+       
         .foot{
-            padding: 2rem 1rem;
+            padding: 1rem 1rem;
             display: grid;
             grid-template-columns: 1fr;
             color: white;
@@ -1535,7 +1543,7 @@
                 .social-icons{
                     margin-bottom: 20px;
                     margin-top: 20px;
-                    display: flex;
+                    display: none;
                     align-items: center;
                     
                    img{

@@ -1452,6 +1452,9 @@ footer .copy-r .copy-li .lis-img img {
     position: relative;
     z-index: -1;
   }
+  .hero .blue-tri {
+    display: none;
+  }
   .hero-imgs {
     width: 100%;
     position: relative;
@@ -1490,7 +1493,7 @@ footer .copy-r .copy-li .lis-img img {
     width: 100%;
     padding: 10px;
     bottom: -10px;
-    left: 20px;
+    left: 0px;
     border-radius: 10px;
     display: flex;
     color: #010123;
@@ -1566,7 +1569,7 @@ footer .copy-r .copy-li .lis-img img {
     position: absolute;
     height: 50px;
     width: 50px;
-    left: 120px;
+    left: 0px;
     background: yellow;
     border-radius: 50px;
     display: flex;
@@ -2011,17 +2014,18 @@ footer .copy-r .copy-li .lis-img img {
     background: #00ccff;
     position: absolute;
     top: 0px;
-    left: 100px;
+    left: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    visibility: hidden;
   }
   .pot1 img {
     width: 50px;
     transform: translateY(1px);
   }
   .pot2 {
+    visibility: hidden;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -2031,7 +2035,6 @@ footer .copy-r .copy-li .lis-img img {
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
   }
   .pot2 img {
     width: 30px;
@@ -2039,14 +2042,13 @@ footer .copy-r .copy-li .lis-img img {
   }
   .pot3 {
     visibility: hidden;
-    display: none;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background: #ffd45d;
     position: absolute;
-    left: 200px;
-    top: 840px;
+    left: 0px;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2056,15 +2058,15 @@ footer .copy-r .copy-li .lis-img img {
     transform: translateY(1px);
   }
   .pot4 {
-    display: none;
+    visibility: hidden;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background: #00a3fd;
     visibility: hidden;
     position: absolute;
-    left: 800px;
-    top: 900px;
+    left: 0px;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2081,7 +2083,7 @@ footer .copy-r .copy-li .lis-img img {
     background: #d4ff9b;
     position: absolute;
     right: 0;
-    top: 900px;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2109,14 +2111,13 @@ footer .copy-r .copy-li .lis-img img {
   }
   .pot7 {
     visibility: hidden;
-    display: none;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background: #00b3b2;
     position: absolute;
-    top: 665px;
-    right: 200px;
+    top: 0px;
+    right: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2126,7 +2127,7 @@ footer .copy-r .copy-li .lis-img img {
     transform: translateY(1px);
   }
   footer .foot {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: grid;
     grid-template-columns: 1fr;
     color: white;
@@ -2147,7 +2148,7 @@ footer .copy-r .copy-li .lis-img img {
   footer .foot .foot-soc .social-icons {
     margin-bottom: 20px;
     margin-top: 20px;
-    display: flex;
+    display: none;
     align-items: center;
   }
   footer .foot .foot-soc .social-icons img {
