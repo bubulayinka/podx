@@ -1367,11 +1367,12 @@ footer .copy-r .copy-li .lis-img img {
     position: absolute;
     top: 60px;
     left: 0;
-    background: red;
+    background: white;
+    border-top: 1px solid #010123;
     height: 100vh;
     z-index: 1;
     width: 100%;
-    visibility: hidden;
+    clip-path: inset(0 0 100% 0);
   }
   header nav ul {
     display: flex;
@@ -1397,6 +1398,9 @@ footer .copy-r .copy-li .lis-img img {
     color: white;
     background: #010123;
     border-radius: 5px;
+  }
+  header nav.open {
+    clip-path: inset(0 0 0 0);
   }
   header .menu-btn {
     height: 30px;
