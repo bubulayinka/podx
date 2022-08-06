@@ -28,14 +28,41 @@
        
 
         .explore-box1{
-            img{
-                width: 220px;
-                height: 220px;
+            height: 350px;
+            .explore-box11{
+                background: url("/img/bl1.PNG");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .explore-box12{
+                background: url("/img/bl2.PNG");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .explore-box13{
+                background: url("/img/bl3.PNG");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .explore-box14{
+                background: url("/img/bl4.PNG");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
     
             p{
                 font-size: 1.5rem;
                 color: white;
+                opacity: .7;
             }
             h5{
                 font-weight: 100;

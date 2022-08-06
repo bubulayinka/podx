@@ -208,10 +208,13 @@
             color: white;
             font-size: 2rem;
         }
-        img{
-          transform: translateY(-15px);
-          
-            
+        .mic{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100%;
+            width: 120px;
+            background: url("/img/mic-removebg-preview.png");
         }
         .comm{
             h3{
